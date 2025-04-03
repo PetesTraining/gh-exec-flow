@@ -13,7 +13,7 @@ jobs:
             # npm: 16
         exclude:
           - node-version: 12
-            operating-system: [windows-latest, ubuntu-latest]
+            operating-system: windows-latest
     runs-on: ${{ matrix.operating-system }}
     steps:
       - name: Get Code
